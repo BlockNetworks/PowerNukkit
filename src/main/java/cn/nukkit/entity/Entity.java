@@ -335,6 +335,10 @@ public abstract class Entity extends Location implements Metadatable {
     @Since("1.3.0.0-PN") public static final int DATA_FLAG_CELEBRATING_SPECIAL = dynamic(94);
     @Since("1.4.0.0-PN") public static final int DATA_FLAG_RAM_ATTACK = dynamic(96);
     @Since("1.5.0.0-PN") @PowerNukkitOnly public static final int DATA_FLAG_PLAYING_DEAD = dynamic(97);
+    public static final int DATA_FLAG_IN_ASCENDABLE_BLOCK = 98;
+    public static final int DATA_FLAG_OVER_DESCENDABLE_BLOCK = 99;
+    public static final int DATA_FLAG_CROAKING = 100;
+    public static final int DATA_FLAG_EAT_MOB = 101;
 
     public static long entityCount = 1;
 
